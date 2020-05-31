@@ -1,0 +1,26 @@
+{
+  "name": "nuxtjs",
+  "version": "1.0.0",
+  "description": "My astonishing Nuxt.js project",
+  "author": "",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt generate",
+    "start": "nuxt start",
+    "grab": "node grabvideos"
+  },
+  "dependencies": {
+    "@nuxtjs/auth": "^4.9.1",
+    "@nuxtjs/axios": "^5.10.3",
+    "@nuxtjs/google-analytics": "^2.2.3",
+    "axios": "^0.19.2",
+    "mysql": "^2.18.1",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.14.1",
+    "nodemon": "^1.18.9",
+    "sass-loader": "^8.0.2"
+  }
+}

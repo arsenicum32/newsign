@@ -1,0 +1,33 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}
+.about {
+  margin-left: 12px;
+  float: right;
+  margin-right: 20px;
+}
+
+a {
+  color: rgba(31,31,31,.77);
+  text-decoration: none;
+  transition: all.6s ease;
+  &:hover {
+    color: #A9A9A9;
+    text-decoration: none;
+    transition: all.6s ease;
+  }
+}
+
+
+header {
+  width: 100%;
+  min-height: 40px;
+  padding-top: 12px;
+  padding-bottom: 16px;
+  border-bottom: 4px white;
+}
