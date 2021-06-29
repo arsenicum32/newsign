@@ -22,7 +22,7 @@ export default {
   },
   async mounted(){
     if (!this.$store.state.videos.length){
-      const { data } = await this.$axios.get('/api/get/videos')
+      const { data } = await this.$axios.get('/videos.json')
       this.$store.commit( 'put', data )
     }
   },
